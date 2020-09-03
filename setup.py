@@ -39,7 +39,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'django>=1.8',
+        'django<2.3',
         'oic==0.13.0',
     ],
     license="Apache Software License",
@@ -53,6 +53,6 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
     ],
 )
